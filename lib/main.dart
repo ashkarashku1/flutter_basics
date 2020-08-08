@@ -28,7 +28,7 @@ class Home extends StatelessWidget {
 //            fontFamily: 'IndieFlower',
 //          ),
 //        ),
-      ),
+//      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click me'),
