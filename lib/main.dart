@@ -14,10 +14,15 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image.asset('assets/space.jpg'),
+          child: Icon(
+            Icons.access_alarm,
+            color: Colors.lightBlue,
+            size: 50.0,
+          ),
+//        child: Image.asset('assets/space.jpg'),
 //        child: Image(
 //          image: AssetImage('assets/space.jpg'),
-        ),
+//        ),
 //        child: Text(
 //          'Hi App',
 //          style: TextStyle(
@@ -28,10 +33,13 @@ class Home extends StatelessWidget {
 //            fontFamily: 'IndieFlower',
 //          ),
 //        ),
-//      ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
-        child: Text('click me'),
+        child: Icon(
+          Icons.add,
+          color: Colors.white,
+        ),
         backgroundColor: Colors.red[600],
       ),
     );
